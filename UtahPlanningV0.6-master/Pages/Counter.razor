@@ -1,0 +1,19 @@
+﻿@page "/Search"
+
+
+
+<h1>Search planning commission meetings.</h1>
+
+<p>Developer note: create completion notice here </p>
+
+<button class="btn btn-primary" @onclick="Scrape">Scrape</button>
+
+
+@code {
+    @using UtahPlanningV0._6
+
+    public static void Scrape()
+    {
+        UtahPlanningV0._6.Program.ScrapeData();
+    }
+}

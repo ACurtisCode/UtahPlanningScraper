@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtahPlanningV0.6", "UtahPlanningV0.6.csproj", "{03886B90-6643-43C6-8083-49AD2F94EED9}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UtahPlanningData", "..\UtahPlanningData\UtahPlanningData.sqlproj", "{5C77E0C5-6455-4AAC-BA6A-BE39E0A49B8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03886B90-6643-43C6-8083-49AD2F94EED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03886B90-6643-43C6-8083-49AD2F94EED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03886B90-6643-43C6-8083-49AD2F94EED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03886B90-6643-43C6-8083-49AD2F94EED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C77E0C5-6455-4AAC-BA6A-BE39E0A49B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C77E0C5-6455-4AAC-BA6A-BE39E0A49B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C77E0C5-6455-4AAC-BA6A-BE39E0A49B8A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5C77E0C5-6455-4AAC-BA6A-BE39E0A49B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C77E0C5-6455-4AAC-BA6A-BE39E0A49B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C77E0C5-6455-4AAC-BA6A-BE39E0A49B8A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFE0ADF7-2CE8-4C50-884C-055527180719}
+	EndGlobalSection
+EndGlobal
